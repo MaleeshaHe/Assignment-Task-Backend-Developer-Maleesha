@@ -1,0 +1,23 @@
+{
+  "name": "backend-api-mysql-with-sequelize",
+  "version": "1.0.0",
+  "description": "A Node.js + Express REST API using MySQL with sequelize. Features user registration/login and CRUD operations for a Product model.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mysql2": "^3.3.4",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.37.7"
+  },
+  "author": "Maleesha",
+  "license": "ISC",
+  "devDependencies": {
+    "sequelize-cli": "^6.6.3"
+  }
+}
